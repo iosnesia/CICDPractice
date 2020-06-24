@@ -28,8 +28,9 @@ class CICDPracticeTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
     
+    //You can test here
     func testCalculationIsRight() {
-        let result = vc1.count(num1: 3, num2: 6)
+        let result = vc1.count(num1: 7, num2: 6)
         XCTAssertEqual(result, 8)
     }
 
