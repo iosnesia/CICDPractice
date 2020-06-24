@@ -29,7 +29,7 @@ class CICDPracticeTests: XCTestCase {
     }
     
     func testCalculationIsRight() {
-        let result = vc1.count(num1: 2, num2: 6)
+        let result = vc1.count(num1: 3, num2: 6)
         XCTAssertEqual(result, 8)
     }
 
