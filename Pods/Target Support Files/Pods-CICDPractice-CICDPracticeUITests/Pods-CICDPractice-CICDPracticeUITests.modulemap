@@ -1,0 +1,6 @@
+framework module Pods_CICDPractice_CICDPracticeUITests {
+  umbrella header "Pods-CICDPractice-CICDPracticeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
